@@ -29,7 +29,7 @@ export default function App() {
       <button  
         className="close"
         onClick={() => {
-          setIsOpen(!isOpen)
+          setIsOpen((is) => !is)
         }}
       >
         &times;
